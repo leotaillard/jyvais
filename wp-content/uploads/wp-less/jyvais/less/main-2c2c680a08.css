@@ -1,0 +1,136 @@
+/*
+*
+*
+* Colors
+*
+*/
+#masthead {
+  padding: 100px 0;
+  background: red;
+}
+#masthead .logo {
+  text-align: center;
+}
+.intro {
+  padding: 100px 0;
+}
+.sidebar article {
+  margin-bottom: 30px;
+}
+#mailbox {
+  padding: 100px 0 100px 0;
+  background: green;
+  text-align: center;
+}
+#footer-container {
+  padding: 100px 0 100px 0;
+  margin: 0;
+  border: none;
+  background: red;
+  text-align: center;
+}
+/* 
+*  
+*	General
+*
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px !important;
+  line-height: 1.8;
+  color: #333;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 85px;
+  line-height: 85px;
+}
+h3 {
+  font-size: 70px;
+  line-height: 70px;
+}
+h4 {
+  font-size: 55px;
+  line-height: 55px;
+}
+h5 {
+  font-size: 40px;
+  line-height: 40px;
+}
+h6 {
+  font-size: 25px;
+  line-height: 25px;
+}
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  h6 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+a,
+.links {
+  cursor: pointer;
+  color: #cc8a44 !important;
+  -webkit-transition: color 0.25s ease;
+  -moz-transition: color 0.25s ease;
+  -ms-transition: color 0.25s ease;
+  -o-transition: color 0.25s ease;
+  text-decoration: none;
+}
+a:hover,
+.links:hover,
+a.active,
+.links.active {
+  -webkit-transition: color 0.25s ease;
+  -moz-transition: color 0.25s ease;
+  -ms-transition: color 0.25s ease;
+  -o-transition: color 0.25s ease;
+  color: #000000 !important;
+  text-decoration: none;
+}
+/* 
+*  
+*	FONTS
+*
+*/
