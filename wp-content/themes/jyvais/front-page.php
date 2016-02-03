@@ -25,6 +25,25 @@ get_header(); ?>
 	        <div class="column">
 	          <img src="//placehold.it/300x300" class="thumbnail" alt="">
 	        </div>
+	        <div class="column">
+	          <img src="//placehold.it/400x122" class="thumbnail" alt="">
+	        </div>
+	        <div class="column">
+	          <img src="//placehold.it/500x431" class="thumbnail" alt="">
+	        </div>
+	        <div class="column">
+	          <img src="//placehold.it/440x323" class="thumbnail" alt="">
+	        </div>
+	        <div class="column">
+	          <img src="//placehold.it/300x300" class="thumbnail" alt="">
+	        </div>
+	        <div class="column">
+	          <img src="//placehold.it/300x300" class="thumbnail" alt="">
+	        </div>
+	        <div class="column">
+	          <img src="//placehold.it/300x300" class="thumbnail" alt="">
+	        </div>
+
 	</div>
 <?php endwhile;?>
 </section>
