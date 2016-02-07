@@ -6451,7 +6451,7 @@ table.hover tr:nth-of-type(even):hover {
           padding-top: 0; } }
 
 #page {
-  max-width: 75rem;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem; }
@@ -6572,7 +6572,9 @@ table.hover tr:nth-of-type(even):hover {
       float: right; }
 
 #single-post {
-  max-width: 75rem;
+/*  max-width: 75rem;
+*/
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem; }

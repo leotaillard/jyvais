@@ -1,0 +1,139 @@
+/*
+*
+*
+* Colors
+*
+*/
+#masthead {
+  padding: 50px 0;
+  background: green;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+#masthead .logo {
+  text-align: center;
+}
+.intro {
+  padding: 100px 0;
+}
+.sidebar article {
+  margin-bottom: 30px;
+}
+#mailbox {
+  padding: 100px 0 100px 0;
+  background: green;
+  text-align: center;
+}
+#footer-container {
+  padding: 100px 0 100px 0;
+  margin: 0;
+  border: none;
+  background: red;
+  text-align: center;
+}
+/* 
+*  
+*	General
+*
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px !important;
+  line-height: 1.8;
+  color: #333;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url('http://localhost:8888/jyvais/wp-content/themes/jyvais/less/../assets/images/background.png') 50% 50%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #bea05a;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+h3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 20px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 18px;
+}
+h6 {
+  font-size: 16px;
+  line-height: 16px;
+}
+@media screen and (max-width: 780px) {
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  h4 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  h5 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  h6 {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+a,
+.links {
+  cursor: pointer;
+  color: #bea05a !important;
+  -webkit-transition: color 0.25s ease;
+  -moz-transition: color 0.25s ease;
+  -ms-transition: color 0.25s ease;
+  -o-transition: color 0.25s ease;
+  text-decoration: none;
+}
+a:hover,
+.links:hover,
+a.active,
+.links.active {
+  -webkit-transition: color 0.25s ease;
+  -moz-transition: color 0.25s ease;
+  -ms-transition: color 0.25s ease;
+  -o-transition: color 0.25s ease;
+  color: #144678 !important;
+  text-decoration: none;
+}
+/* 
+*  
+*	FONTS
+*
+*/

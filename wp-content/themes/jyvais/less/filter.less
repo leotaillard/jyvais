@@ -1,0 +1,43 @@
+.filter-group {
+	background: @blue;
+	padding: 20px 0;
+	color: white;
+	h4,li {
+		cursor: pointer;
+	}
+	.filter-group-list {
+		padding: 20px 0;
+		display: none;
+	}
+}
+#filter-icon {
+	text-align: center;
+		#filter_svg_icon {
+			cursor: pointer;
+			height: 25px;
+			width: 25px;
+			fill: white;
+			.transition(fill 0.3s linear);
+			#first_ball, #second_ball, #third_ball {
+				transform: translate(0, 0);
+				.transition(transform 0.3s linear);
+			}
+			&.animation{
+				fill:@gold;
+				.transition(fill 0.3s linear);
+				#first_ball {
+					transform: translate(10px, 0);
+					.transition(transform 0.3s linear);
+				}
+				#second_ball {
+					transform: translate(-30px, 0);
+					.transition(transform 0.3s linear);
+				}
+				#third_ball {
+					transform: translate(10px, 0);
+					.transition(transform 0.3s linear);
+				}
+
+			}
+		}
+}
